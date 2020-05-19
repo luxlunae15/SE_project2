@@ -35,7 +35,7 @@ void filestat1(){
 
 //파일 2의 정보를 가져오는 함수 작성
 void filestat2(){
-    stat("text/2", &stat2);
+    stat("text2", &stat2);
     printf("2. %ld",(long)stat2.st_ino);
    
 }
