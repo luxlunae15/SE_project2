@@ -29,13 +29,13 @@ int main(){
 
 //파일 1의 정보를 가져오는 함수 작성
 void filestat1(){
-    stat("./etc/1", &stat1);
+    stat("text1", &stat1);
     printf("1. %ld", (long)stat1.st_ino);
 }
 
 //파일 2의 정보를 가져오는 함수 작성
 void filestat2(){
-    stat("./etc/2", &stat2);
+    stat("text/2", &stat2);
     printf("2. %ld",(long)stat2.st_ino);
    
 }
